@@ -1,12 +1,10 @@
 #include <bits/stdc++.h>
 
 using namespace std;
-using pii = pair<int,int>;
 
-const int maxn = 1e2 + 5,inf = 1e8;
+const int maxn = 1e2 + 10;
 
 int n,m[maxn][maxn],mark[maxn][maxn],d[maxn][maxn];
-priority_queue<pii,vector<pii>,greater<pii>> f;
 
 int main(){
     
